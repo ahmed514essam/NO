@@ -1,0 +1,27 @@
+* {
+padding: 0;
+box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+}
+section {
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 28px;
+}
+div {
+background-color: rgb(255, 255, 255);
+margin: auto;
+width: 70%;
+height: 75px;
+margin-top: 33dvh;
+border: .6px solid rgb(247, 247, 247);
+font-size: 1.8em;
+text-align: center;
+}
+button { font-size: 1.8em; padding: 15px 20px; color:#f1f1f1; background-color: red; border: none;
+    width: 250px;
+    
+    border-radius:30px ; -webkit-border-radius:30px ; -moz-border-radius:30px ; -ms-border-radius:30px ; -o-border-radius:30px ;
+}
